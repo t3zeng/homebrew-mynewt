@@ -26,6 +26,6 @@ class MynewtNewt < Formula
 
   test do
     # Compare newt version string
-    assert_equal "1.8.0", shell_output("#{bin}/newt version").split.last
+    assert_equal "1.9.0", shell_output("#{bin}/newt version").split.last
   end
 end
